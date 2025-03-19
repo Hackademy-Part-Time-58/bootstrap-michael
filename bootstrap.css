@@ -1,0 +1,34 @@
+
+.navbar {
+    background: #FFE000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+.Hero-section {
+    height: 400px;
+    background-image: url(piatti\ hero.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size: 80px;
+    border-radius: 18px;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: rgb(238, 255, 0);
+    
+}
+.section1 {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.title-section1 {
+    font-size: 60px;
+}
+.row {
+    border: 1px solid black;
+    border-radius: 18px;
+}

@@ -5,10 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap-Michael</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bootstrap.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     
-    <h1>Hello, world!</h1>
+    <header class="Hero-section">
+        <h1 class="title">Cucinando</h1>
+    </header>
+    
+    <main>
+        <div class="section1">
+            <h2 class="title-section1">Scegli le ricette Piemontesi</h2>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h3>Brasato al Barolo</h3>
+                    <a href="https://ricette.giallozafferano.it/Brasato-al-Barolo.html" target="_blank"><img src="Brasato-al-Barolo_360x300.avif" alt=""></a>
+                    <p>Il brasato al Barolo è un tipico secondo piatto piemontese: la marinatura e la lunga cottura rendono la carne morbidissima e saporita. Qui la ricetta!</p>
+                </div>
+                <div class="col">
+                    <h3>Vitello tonnato</h3>
+                    <a href="https://ricette.giallozafferano.it/Vitello-tonnato.html" target="_blank"><img src="Vitello-tonnato_360x300.avif" alt=""></a>
+                    <p>Il vitello tonnato è una ricetta tipica del Piemonte, un antipasto molto semplice da preparare e che conquista tutti con la sua bontà!</p>
+                </div>
+                <div class="col">
+                    <h3>Bagna caoda</h3>
+                    <a href="https://ricette.giallozafferano.it/Bagna-caoda.html" target="_blank"><img src="Bagna-caoda_360x300.avif" alt=""></a>
+                    <p>La bagna caoda è una tipica preparazione Piemontese utilizzata come intingolo per le verdure della stagione autunnale.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>© 2025 Cucinando S.p.A
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
